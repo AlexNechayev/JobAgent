@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">JobAgent</string>
+    <string name="language">Select Language</string>
+    <string name="about">about</string>
+    <string name="setting">setting</string>
+    <string name="job_agent">Job Agent</string>
+    <string name="agent">Agent</string>
+    <string name="agent_looking">Agent: </string>
+    <string name="agents_to_create">How many agents to set?</string>
+    <string name="set_text">set</string>
+    <string name="close_text">close</string>
+    <string name="cancel_text">cancel</string>
+    <string name="main_instruction">Press the \"+\" button to add agents</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="job_field">Job Field</string>
+    <string name="location">Location</string>
+    <string name="starting_date">Starting Date</string>
+    <string name="mobility">Mobility</string>
+    <string name="Steps">Steps</string>
+    <string name="init_kilometers">5 km</string>
+    <string name="full_time_job">Full time</string>
+    <string name="job_type">Job type</string>
+    <string name="part_time">Part time</string>
+    <string name="relocation">Relocation</string>
+    <string name="from_home">From home</string>
+    <string name="single_parent">Single-parent</string>
+    <string name="intern">Intern</string>
+    <string name="student">Student</string>
+    <string name="kilometers">km</string>
+    <string name="submit">Submit</string>
+    <string name="passedDate">Please select current\\ future date</string>
+    <string name="submit_alert">Please complete to set up the Agent</string>
+    <string name="job_field_alert">Please inset job field</string>
+    <string name="about_title">Alexander Nechaev</string>
+    <string name="about_language">Supports: English / Hebrew</string>
+    <string name="mode_about">Try it in Dark Mode</string>
+    <string name="job_field_hint">Enter job field</string>
+    <string name="job_agent_is_set">The agent is ready</string>
+    <string name="distance">Distance</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="change">change</string>
+    <string name="rate_the_agent">Rate the Agent</string>
+    <string name="we_will_try_better_next_time">We will try better next time</string>
+    <string name="thanks_we_are_getting_better">Thanks! we are getting better</string>
+    <string name="almost_there">Almost perfect!</string>
+    <string name="excellent">Excellent!</string>
+    <string name="rate">Rate</string>
+
+    <string-array name="locations">
+        <item>Any Location</item>
+        <item>Tel Aviv</item>
+        <item>Holon</item>
+        <item>Bat Yam</item>
+        <item>Rishon Lezion</item>
+        <item>Petah Tikva</item>
+        <item>Zefat</item>
+        <item>Haifa</item>
+        <item>Tiberias</item>
+        <item>Afula</item>
+        <item>Hadera</item>
+        <item>Netanya</item>
+        <item>Kfar Saba</item>
+        <item>Ashdod</item>
+        <item>Jerusalem</item>
+        <item>Kiryat Gat</item>
+        <item>Beer Sheva</item>
+    </string-array>
+
+</resources>

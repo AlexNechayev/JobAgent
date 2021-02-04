@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#16697a</color>
+    <color name="p_light">#4f97a9</color>
+    <color name="p_dark">#003e4e</color>
+    <color name="secondary">#ffa72b</color>
+    <color name="s_light">#ffd95f</color>
+    <color name="s_dark">#c77800</color>
+    <color name="app_background">#f8f1f1</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColorDark">#FF000000</color>
+    <color name="textColorLight">#FFFFFFFF</color>
+    <color name="spinnerBackground">#71B4C5</color>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JobAgent</string>
+    <string name="language">בחר שפה</string>
+    <string name="about">אודות</string>
+    <string name="setting">הגדרות</string>
+    <string name="job_agent">סוכן עבודה</string>
+    <string name="agent">סוכן</string>
+    <string name="agent_looking">סוכן: </string>
+    <string name="agents_to_create">כמה סוכנים להגדיר?</string>
+    <string name="set_text">בצע</string>
+    <string name="close_text">סגור</string>
+    <string name="cancel_text">בטל</string>
+    <string name="main_instruction">לחץ על ה \"+\" על מנת להוסיף סוכנים</string>
+    <string name="enter_a_number">הכנס מספר</string>
+    <string name="job_field">תחום עבודה</string>
+    <string name="location">מיקום</string>
+    <string name="starting_date">תאריך התחלה</string>
+    <string name="mobility">ניידות</string>
+    <string name="Steps">שלבים</string>
+    <string name="init_kilometers">5 ק\"מ</string>
+    <string name="full_time_job">משרה מלאה</string>
+    <string name="job_type">סוג משרה</string>
+    <string name="part_time">משרה חלקית</string>
+    <string name="relocation">רילוקיישן</string>
+    <string name="from_home">מהבית</string>
+    <string name="single_parent">חד הורית</string>
+    <string name="intern">התמחות</string>
+    <string name="student">סטודנט</string>
+    <string name="kilometers">ק\"מ</string>
+    <string name="submit">שמור</string>
+    <string name="passedDate">אנא בחר תאריך נוכחי\/ עתידי</string>
+    <string name="submit_alert">אנא סיים להגדיר את הסוכן</string>
+    <string name="job_field_alert">אנא הוסף תחום עבודה</string>
+    <string name="about_title">אלכסנדר ניצ\'ייב</string>
+    <string name="about_language">תומך: עברית / אנגלית</string>
+    <string name="mode_about">נסה במצב חושך</string>
+    <string name="job_field_hint">הוסף תחום עבודה</string>
+    <string name="job_agent_is_set">הסוכן מוכן</string>
+    <string name="distance">מרחק</string>
+    <string name="ok">אישור</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="change">שינוי</string>
+    <string name="rate_the_agent">דרג את הסוכן</string>
+    <string name="we_will_try_better_next_time">נשתדל יותר בפעם הבאה</string>
+    <string name="thanks_we_are_getting_better">תודה! אנחנו משתפרים</string>
+    <string name="almost_there">כמעט מושלם!</string>
+    <string name="excellent">מצויין!</string>
+    <string name="rate">דרג</string>
+
+    <string-array name="locations">
+        <item>כל מקום</item>
+        <item>תל אביב</item>
+        <item>חולון</item>
+        <item>בת ים</item>
+        <item>ראשון לציון</item>
+        <item>פתח תקווה</item>
+        <item>צפת</item>
+        <item>חיפה</item>
+        <item>טבריה</item>
+        <item>עפולה</item>
+        <item>חדרה</item>
+        <item>נתניה</item>
+        <item>כפר סבא</item>
+        <item>אשדוד</item>
+        <item>ירושלים</item>
+        <item>קרית גת</item>
+        <item>באר שבע</item>
+    </string-array>
+
+</resources>

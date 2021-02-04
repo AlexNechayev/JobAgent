@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/p_light">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/Steps"/>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:max="2"
+                android:progress="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorDark"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/job_field"/>
+            <EditText
+                android:id="@+id/job_field_et"
+                android:layout_width="match_parent"
+                android:textColor="@color/textColorDark"
+                android:hint="@string/job_field_hint"
+                android:textColorHint="@color/primary"
+                android:inputType="text"
+                android:lines="1"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:layout_marginTop="40dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/textColorDark" />
+
+            <Spinner
+                android:id="@+id/location_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+
+                android:entries="@array/locations"
+                android:popupBackground="@color/spinnerBackground"
+                android:spinnerMode="dropdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorDark"
+                android:layout_marginTop="40dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/starting_date" />
+
+            <CalendarView
+                android:id="@+id/calendar_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <CheckBox
+                android:id="@+id/mobility_check_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/mobility" />
+            <TextView
+                android:id="@+id/kilometer_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/init_kilometers"
+                android:textColor="@color/textColorDark"
+                android:gravity="center"/>
+
+            <SeekBar
+                android:id="@+id/kilometer_seek_bar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="15"
+                android:progress="0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/textColorDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/job_type" />
+            <RadioGroup
+                android:id="@+id/position_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/full_time_job"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/part_time"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/relocation"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/from_home"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/single_parent"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/intern"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColorDark"
+                    android:text="@string/student"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="35dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/s_button_selector"
+                android:textColor="@color/textColorLight"
+                android:text="@string/submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
